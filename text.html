@@ -30,11 +30,13 @@
 
         function titleBaru() {
             teksTitle.innerText = "Hello, gurll";
+            const warnaAcak = daftarWarna[Math.floor(Math.random() * daftarWarna.length)];
             teksTitle.style.color = warnaAcak;
         }
 
         function ubah() {
             teksTitle.innerText = "Hello, gurll";
+            const indexAcak = Math.floor(Math.random() * daftarWarna.length);
             const warnaTerpilih = daftarWarna[indexAcak];
             teksWarna.style.color = warnaTerpilih;
         }
@@ -60,4 +62,5 @@
         
     </script>
 </body>
+
 </html>
